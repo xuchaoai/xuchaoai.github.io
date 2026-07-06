@@ -1,58 +1,281 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
-author_profile: true
-redirect_from: 
+title: "XuChao - Homepage"
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
+body_class: home-page
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section id="about-me" class="home-hero">
+  <div class="home-hero__content">
+    <span class="eyebrow" data-i18n="hero.eyebrow">AI Systems - Personal Homepage</span>
+    <h1 data-i18n="hero.name">XuChao</h1>
+    <p class="home-hero__lead" data-i18n="hero.lead">I am building a personal research homepage for AI, software projects, and technical notes.</p>
+    <p data-i18n-html="hero.intro">This page is the first version of my academic-style homepage. It will collect my research interests, selected projects, publications or writing, and recent updates in one place.</p>
+    <div class="academic-path">
+      <strong data-i18n="hero.focusLabel">Current focus:</strong>
+      <div data-i18n-html="hero.focusText">large language models, AI agents, practical software systems, and reproducible project documentation.</div>
+    </div>
 
-<span class='anchor' id='about-me'></span>
+    <div class="home-hero__actions">
+      <a class="home-button home-button--primary" href="/cv/"><i class="fas fa-file-alt"></i> <span data-i18n="hero.cvButton">CV</span></a>
+      <a class="home-button" href="https://github.com/xuchaoai"><i class="fab fa-github"></i> <span data-i18n="hero.githubButton">GitHub</span></a>
+      <a class="home-button" href="mailto:xuchao@csu.edu.cn"><i class="fas fa-envelope"></i> <span data-i18n="hero.emailButton">Email</span></a>
+    </div>
+    <div class="opportunity-note"><span class="status-dot"></span><span data-i18n="hero.status">Homepage under active construction.</span></div>
+  </div>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+  <div class="home-hero__portrait" aria-label="XuChao profile visual" data-i18n-attr="aria-label:hero.portraitAria">
+    <img src="/photos/个人像.jpg?v={{ site.time | date: '%s' }}" alt="XuChao portrait" data-i18n-attr="alt:hero.portraitAlt">
+    <div class="portrait-caption">
+      <strong data-i18n="hero.name">XuChao</strong>
+      <span data-i18n="hero.portraitCaption">AI - Code - Research Notes</span>
+    </div>
+  </div>
+</section>
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+<section class="education-panel" aria-label="Education background" data-i18n-attr="aria-label:education.aria">
+  <div class="education-panel__header">
+    <span class="section-kicker" data-i18n="education.kicker">Education Background</span>
+  </div>
 
+  <article class="education-item">
+    <img class="education-item__image" src="/photos/中南大学.png?v={{ site.time | date: '%s' }}" alt="Central South University logo" data-i18n-attr="alt:education.csuAlt">
+    <div class="education-item__body">
+      <div class="education-item__school">
+        <strong data-i18n="education.csuName">Central South University</strong>
+        <span class="education-badge education-badge--blue" data-i18n="education.csuBadge">985</span>
+        <span class="education-badge education-badge--blue" data-i18n="education.csuBadgeRecommended">Recommended Postgraduate</span>
+      </div>
+      <p class="education-item__detail">
+        <span class="education-date" data-i18n="education.csuDate">2024.9--2027.6</span>
+        <span data-i18n="education.csuDetail">School of Electronic Information | Electronic Information | Master</span>
+      </p>
+    </div>
+  </article>
 
-# 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+  <article class="education-item">
+    <img class="education-item__image" src="/photos/安徽理工大学.png?v={{ site.time | date: '%s' }}" alt="Anhui University of Science and Technology logo" data-i18n-attr="alt:education.austAlt">
+    <div class="education-item__body">
+      <div class="education-item__school">
+        <strong data-i18n="education.austName">Anhui University of Science and Technology</strong>
+        <span class="education-badge education-badge--green" data-i18n="education.austBadge">Provincial Key</span>
+        <span class="education-badge education-badge--green" data-i18n="education.austBadgeTop">Top 3% in major</span>
+      </div>
+      <p class="education-item__detail">
+        <span class="education-date" data-i18n="education.austDate">2020.9--2024.7</span>
+        <span data-i18n="education.austDetail">School of Computer Science and Engineering | Internet of Things Engineering | Bachelor</span>
+      </p>
+    </div>
+  </article>
+</section>
 
-# 📝 Publications 
+<section id="research" class="section-heading">
+  <div>
+    <span class="section-kicker" data-i18n="research.kicker">What I am exploring</span>
+    <h2><i class="fas fa-robot"></i> <span data-i18n="research.title">Research Highlights</span></h2>
+  </div>
+  <p data-i18n="research.summary">A compact overview of the topics this homepage will organize as the work grows.</p>
+</section>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<section class="research-grid">
+  <article class="research-card research-card--green">
+    <div class="research-card__image research-card__image--diagram research-visual research-visual--systems">
+      <img src="/photos/vla.png?v={{ site.time | date: '%s' }}" alt="Embodied intelligence research highlight" data-i18n-attr="alt:research.systemsImageAlt">
+    </div>
+    <div class="research-card__body">
+      <span class="tag-row"><span data-i18n="research.systemsTag1">Embodied AI</span><span data-i18n="research.systemsTag2">RL</span><span data-i18n="research.systemsTag3">Safe Control</span></span>
+      <h3 data-i18n="research.systemsTitle">Embodied Intelligence and Safe Decision-Making</h3>
+      <p data-i18n="research.systemsBody">Exploring how learning-based methods can improve stability, safety, and decision quality in complex embodied tasks.</p>
+      <div class="card-status"><i class="fas fa-flask"></i> <span data-i18n="research.systemsStatus">In progress</span></div>
+    </div>
+  </article>
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+  <article class="research-card research-card--purple">
+    <div class="research-card__image research-card__image--abstract research-visual research-visual--notes" data-visual-label="" data-i18n-attr="data-visual-label:research.notesVisual">
+      <div class="research-abstract-card research-abstract-card--network" aria-hidden="true">
+        <span class="research-abstract-card__icon"><i class="fas fa-broadcast-tower"></i></span>
+        <span class="research-abstract-card__node research-abstract-card__node--one"></span>
+        <span class="research-abstract-card__node research-abstract-card__node--two"></span>
+        <span class="research-abstract-card__node research-abstract-card__node--three"></span>
+      </div>
+    </div>
+    <div class="research-card__body">
+      <span class="tag-row"><span data-i18n="research.notesTag1">Wireless</span><span data-i18n="research.notesTag2">Optimization</span><span data-i18n="research.notesTag3">AI</span></span>
+      <h3 data-i18n="research.notesTitle">Intelligent Wireless Network Optimization</h3>
+      <p data-i18n="research.notesBody">Exploring intelligent optimization methods for dynamic wireless network scenarios, with attention to efficiency, service quality, and adaptive coordination.</p>
+      <div class="card-status"><i class="fas fa-pen"></i> <span data-i18n="research.notesStatus">Completed / ongoing write-up</span></div>
+    </div>
+  </article>
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+  <article class="research-card research-card--green">
+    <div class="research-card__image research-card__image--abstract research-visual research-visual--systems" data-visual-label="" data-i18n-attr="data-visual-label:research.extraOneVisual">
+      <div class="research-abstract-card" aria-hidden="true">
+        <span class="research-abstract-card__icon"><i class="fas fa-network-wired"></i></span>
+        <span class="research-abstract-card__orbit research-abstract-card__orbit--one"></span>
+        <span class="research-abstract-card__orbit research-abstract-card__orbit--two"></span>
+        <span class="research-abstract-card__line"></span>
+      </div>
+    </div>
+    <div class="research-card__body">
+      <span class="tag-row"><span data-i18n="research.extraOneTag1">Tag 1</span><span data-i18n="research.extraOneTag2">Tag 2</span><span data-i18n="research.extraOneTag3">Tag 3</span></span>
+      <h3 data-i18n="research.extraOneTitle">Research Highlight 3</h3>
+      <p data-i18n="research.extraOneBody">Add a concise description for this research highlight.</p>
+      <div class="card-status"><i class="fas fa-flask"></i> <span data-i18n="research.extraOneStatus">In progress</span></div>
+    </div>
+  </article>
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+  <article class="research-card research-card--purple">
+    <div class="research-card__image research-card__image--diagram research-visual research-visual--notes">
+      <img src="/photos/运维系统.png?v={{ site.time | date: '%s' }}" alt="Operations system research highlight" data-i18n-attr="alt:research.extraTwoImageAlt">
+    </div>
+    <div class="research-card__body">
+      <span class="tag-row"><span data-i18n="research.extraTwoTag1">Tag 1</span><span data-i18n="research.extraTwoTag2">Tag 2</span><span data-i18n="research.extraTwoTag3">Tag 3</span></span>
+      <h3 data-i18n="research.extraTwoTitle">Research Highlight 4</h3>
+      <p data-i18n="research.extraTwoBody">Add a concise description for this research highlight.</p>
+      <div class="card-status"><i class="fas fa-pen"></i> <span data-i18n="research.extraTwoStatus">Content coming soon</span></div>
+    </div>
+  </article>
+</section>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<section id="publications" class="section-heading">
+  <div>
+    <span class="section-kicker" data-i18n="writing.kicker">Selected work</span>
+    <h2><i class="fas fa-book-open"></i> <span data-i18n="writing.title">Research Achievements</span></h2>
+  </div>
+  <a class="section-link" href="https://github.com/xuchaoai"><span data-i18n="writing.more">More on GitHub</span> <i class="fas fa-arrow-right"></i></a>
+</section>
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+<section class="publication-list">
+  <article class="publication-card">
+    <div class="achievement-icon achievement-icon--paper" aria-label="Paper" data-i18n-attr="aria-label:writing.paperType"><i class="fas fa-file-alt"></i></div>
+    <div>
+      <h3 data-i18n="writing.paperTitle">IEEE TMC Paper</h3>
+      <p class="authors" data-i18n="writing.paperMeta">First Author · Under Revision · CCF-A · CAS Q1 Top Journal</p>
+      <p data-i18n="writing.paperBody">A research paper submitted to IEEE Transactions on Mobile Computing, currently under revision.</p>
+    </div>
+  </article>
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+  <article class="publication-card">
+    <div class="achievement-icon achievement-icon--patent" aria-label="Patent" data-i18n-attr="aria-label:writing.patentType"><i class="fas fa-lightbulb"></i></div>
+    <div>
+      <h3 data-i18n="writing.patentTitle">An Energy Efficiency Optimization Method for Cellular Networks and Related Devices</h3>
+      <p class="authors" data-i18n="writing.patentMeta">Invention Patent</p>
+      <p data-i18n="writing.patentBody">Proposes an energy-efficiency optimization method and related devices for cellular network scenarios.</p>
+    </div>
+  </article>
+</section>
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+<section id="internships" class="section-heading">
+  <div>
+    <span class="section-kicker" data-i18n="internships.kicker">Professional experience</span>
+    <h2><i class="fas fa-briefcase"></i> <span data-i18n="internships.title">Internships</span></h2>
+  </div>
+  <p data-i18n="internships.summary">A place for internship roles, organizations, projects, and practical experience.</p>
+</section>
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+<section class="publication-list internship-list">
+  <article class="publication-card internship-card">
+    <div class="internship-logo">
+      <img src="/photos/平安科技.png?v={{ site.time | date: '%s' }}" alt="Ping An Technology logo" data-i18n-attr="alt:internships.logoAlt">
+    </div>
+    <div>
+      <div class="internship-meta">
+        <span class="education-date" data-i18n="internships.date">2026.5-2026.7</span>
+        <span class="internship-track" data-i18n="internships.track">Embodied Intelligence · Reinforcement Learning</span>
+      </div>
+      <h3 data-i18n="internships.company">Ping An Technology (Shenzhen) Co., Ltd.</h3>
+      <p class="authors internship-role" data-i18n="internships.role">Algorithm Assistant Engineer</p>
+      <p data-i18n="internships.body">Participated in embodied intelligence algorithm research, exploring risk-aware and reinforcement learning based intelligent control optimization for safe and stable robotic arm task execution.</p>
+    </div>
+  </article>
+</section>
+
+<section id="competitions" class="section-heading">
+  <div>
+    <span class="section-kicker" data-i18n="competitions.kicker">Selected activities</span>
+    <h2><i class="fas fa-trophy"></i> <span data-i18n="competitions.title">Competitions</span></h2>
+  </div>
+  <p data-i18n="competitions.summary">A place for competitions, awards, challenges, and related records.</p>
+</section>
+
+<section class="publication-list competition-list">
+  <article class="publication-card competition-card">
+    <div class="competition-icon competition-icon--cup"><i class="fas fa-trophy"></i></div>
+    <div>
+      <h3 data-i18n="competitions.challengeCupTitle">Challenge Cup National College Students' Extracurricular Academic Science and Technology Works Competition</h3>
+      <p class="authors competition-award" data-i18n="competitions.challengeCupAward">Provincial First Prize</p>
+      <p data-i18n="competitions.challengeCupBody">Designed a multi-stage energy-saving aquaculture wastewater treatment system with intelligent control and equipment coordination.</p>
+    </div>
+  </article>
+
+  <article class="publication-card competition-card">
+    <div class="competition-icon competition-icon--rocket"><i class="fas fa-rocket"></i></div>
+    <div>
+      <h3 data-i18n="competitions.internetTitle">China International College Students' Innovation Competition (Internet+)</h3>
+      <p class="authors competition-award" data-i18n="competitions.internetAward">Provincial Gold Award</p>
+      <p data-i18n="competitions.internetBody">Built an intelligent multi-stage wastewater treatment system to improve processing efficiency and automation.</p>
+    </div>
+  </article>
+
+  <article class="publication-card competition-card">
+    <div class="competition-icon competition-icon--web"><i class="fas fa-code"></i></div>
+    <div>
+      <h3 data-i18n="competitions.webTitle">5th National College Student Intelligent Technology Application Competition (Web Track)</h3>
+      <p class="authors competition-award" data-i18n="competitions.webAward">National Third Prize</p>
+      <p data-i18n="competitions.webBody">Developed a home-care Web service platform for health management, service recommendation, and information interaction.</p>
+    </div>
+  </article>
+
+  <article class="publication-card competition-card">
+    <div class="competition-icon competition-icon--iot"><i class="fas fa-microchip"></i></div>
+    <div>
+      <h3 data-i18n="competitions.iotTitle">5th National College Student Intelligent Technology Application Competition (IoT Track)</h3>
+      <p class="authors competition-award" data-i18n="competitions.iotAward">National Third Prize</p>
+      <p data-i18n="competitions.iotBody">Implemented smart car path tracking, environment sensing, and dynamic obstacle avoidance based on an STC89C52RC microcontroller.</p>
+    </div>
+  </article>
+
+  <article class="publication-card competition-card">
+    <div class="competition-icon competition-icon--service"><i class="fas fa-handshake"></i></div>
+    <div>
+      <h3 data-i18n="competitions.serviceTitle">14th China College Students Service Outsourcing Innovation and Entrepreneurship Competition</h3>
+      <p class="authors competition-award" data-i18n="competitions.serviceAward">National Third Prize</p>
+      <p data-i18n="competitions.serviceBody">Designed task scheduling and personalized recommendation for an online service platform.</p>
+    </div>
+  </article>
+
+  <article class="publication-card competition-card">
+    <div class="competition-icon competition-icon--ai"><i class="fas fa-brain"></i></div>
+    <div>
+      <h3 data-i18n="competitions.graduateTitle">4th Graduate Computer Innovation Competition</h3>
+      <p class="authors competition-award" data-i18n="competitions.graduateAward">Provincial First Prize</p>
+      <p data-i18n="competitions.graduateBody">Proposed MC-GRUADNet for bearing fault diagnosis and built a visual result presentation system.</p>
+    </div>
+  </article>
+</section>
+
+<section id="news" class="section-heading">
+  <div>
+    <span class="section-kicker" data-i18n="news.kicker">Latest updates</span>
+    <h2><i class="fas fa-stream"></i> <span data-i18n="news.title">Recent News</span></h2>
+  </div>
+</section>
+
+<section class="news-timeline">
+  <div class="news-item news-item--milestone"><time data-i18n="news.dateUndergraduate">Sep 2020</time><div><strong data-i18n="news.undergraduateTitle">Undergraduate Start | Anhui University of Science and Technology</strong><p data-i18n="news.undergraduateBody">Started undergraduate study in Internet of Things Engineering at the School of Computer Science.</p></div></div>
+  <div class="news-item news-item--paper"><time data-i18n="news.dateMaster">Sep 2024</time><div><strong data-i18n="news.masterTitle">Recommended Postgraduate Study | Central South University</strong><p data-i18n="news.masterBody">Recommended for admission to Central South University to pursue a master's degree in Electronic Information.</p></div></div>
+  <div class="news-item news-item--internship"><time data-i18n="news.dateInternship">May 2026</time><div><strong data-i18n="news.internshipTitle">Industry Practice | Ping An Technology</strong><p data-i18n="news.internshipBody">Joined Ping An Technology as an algorithm engineer intern, working on reinforcement learning algorithms for embodied intelligence.</p></div></div>
+  <div class="news-item news-item--future"><time data-i18n="news.dateCurrent">Current</time><div><strong data-i18n="news.currentTitle">Continuous Exploration | New Opportunities</strong><p data-i18n="news.currentBody">Looking for new algorithm-related internship opportunities to further explore reinforcement learning, embodied intelligence, and intelligent decision-making.</p></div></div>
+</section>
+
+<section class="home-contact">
+  <div>
+    <span class="section-kicker" data-i18n="contact.kicker">Let us connect</span>
+    <h2 data-i18n="contact.title">Interested in AI systems or practical software projects?</h2>
+    <p data-i18n="contact.body">More contact links can be added here once the final email, CV, and social profiles are ready.</p>
+  </div>
+  <a class="home-button home-button--light" href="mailto:xuchao@csu.edu.cn"><i class="fas fa-envelope"></i> <span data-i18n="contact.email">Email</span></a>
+</section>

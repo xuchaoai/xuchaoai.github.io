@@ -4,11 +4,17 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me" data-i18n="nav.home">Homepage</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}"{% if link.i18n_key %} data-i18n="{{ link.i18n_key }}"{% endif %}>{{ link.title }}</a></li>
           {% endfor %}
         </ul>
+        <div class="masthead__controls">
+          <div class="language-toggle" role="group" aria-label="Language" data-i18n-attr="aria-label:nav.language">
+            <a class="language-toggle__option" href="#" data-lang-option="en" role="button" aria-pressed="true">EN</a>
+            <a class="language-toggle__option" href="#" data-lang-option="zh" role="button" aria-pressed="false">&#20013;&#25991;</a>
+          </div>
+        </div>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
