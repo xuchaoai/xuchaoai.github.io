@@ -23,7 +23,7 @@ en:
     status: "Currently seeking job opportunities."
     portraitAria: "XuChao profile visual"
     portraitAlt: "XuChao portrait"
-    portraitCaption: "Deep Reinforcement Learning, Resource Optimization, Embodied Intelligence, AI Bot, Agent, LLM"
+    portraitCaption: "Reinforcement Learning, Resource Optimization, Embodied Intelligence, AI Bot, Agent, LLM"
   education:
     aria: "Education background"
     kicker: "Education Background"
@@ -195,7 +195,7 @@ zh:
     status: "目前正在寻找工作机会"
     portraitAria: "许超个人主页视觉图"
     portraitAlt: "许超个人照片"
-    portraitCaption: "深度强化学习、资源优化、具身智能、AI Bot、Agent、LLM"
+    portraitCaption: "强化学习、资源优化、具身智能、AI Bot、Agent、LLM"
   education:
     aria: "教育背景"
     kicker: "教育背景"
