@@ -31,7 +31,7 @@ body_class: home-page
     <img src="/photos/个人像.jpg?v={{ site.time | date: '%s' }}" alt="XuChao portrait" data-i18n-attr="alt:hero.portraitAlt">
     <div class="portrait-caption">
       <strong data-i18n="hero.name">XuChao</strong>
-      <span data-i18n="hero.portraitCaption">AI - Code - Research Notes</span>
+      <span data-i18n="hero.portraitCaption">Deep Reinforcement Learning, Resource Optimization, Embodied Intelligence, AI Bot, Agent, LLM</span>
     </div>
   </div>
 </section>
