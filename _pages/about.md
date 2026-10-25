@@ -183,10 +183,11 @@ body_class: home-page
     </div>
     <div>
       <div class="internship-meta">
+        <span class="education-date" data-i18n="internships.tencentDate">2026.7-2026.10</span>
         <span class="internship-track" data-i18n="internships.tencentTrack">AI Bot · LLM · RL</span>
       </div>
-      <h3 data-i18n="internships.tencentCompany">Tencent</h3>
-      <p class="authors internship-role" data-i18n="internships.tencentProject">Honor of Kings: Wanxiangqi — Multi-Playstyle Training and Policy Optimization</p>
+      <h3 data-i18n="internships.tencentCompany">Tencent Technology (Shenzhen) Co., Ltd.</h3>
+      <p class="authors internship-role" data-i18n="internships.tencentProject">AI Platform Department · Technical Research</p>
       <p data-i18n="internships.tencentBody">Worked on multi-lineup, multi-playstyle training and policy optimization for AI Bots in Honor of Kings: Wanxiangqi. Built a performance-driven adaptive sparring (PAS) mechanism to support policy transfer across lineups and parallel training; explored LLM-driven lineup generation and automated integration, and used visual monitoring to improve training feedback, policy convergence, and Bot playstyle diversity.</p>
     </div>
   </article>
