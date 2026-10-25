@@ -173,10 +173,24 @@ body_class: home-page
     <span class="section-kicker" data-i18n="internships.kicker">Professional experience</span>
     <h2><i class="fas fa-briefcase"></i> <span data-i18n="internships.title">Internships</span></h2>
   </div>
-  <p data-i18n="internships.summary">A place for internship roles, organizations, projects, and practical experience.</p>
+  <p data-i18n="internships.summary">Industry algorithm research experience in game AI, reinforcement learning, LLM applications, and embodied intelligence.</p>
 </section>
 
 <section class="publication-list internship-list">
+  <article class="publication-card internship-card">
+    <div class="internship-logo">
+      <img src="/photos/腾讯.jpg?v={{ site.time | date: '%s' }}" alt="Tencent logo" data-i18n-attr="alt:internships.tencentLogoAlt">
+    </div>
+    <div>
+      <div class="internship-meta">
+        <span class="internship-track" data-i18n="internships.tencentTrack">AI Bot · LLM · RL</span>
+      </div>
+      <h3 data-i18n="internships.tencentCompany">Tencent</h3>
+      <p class="authors internship-role" data-i18n="internships.tencentProject">Honor of Kings: Wanxiangqi — Multi-Playstyle Training and Policy Optimization</p>
+      <p data-i18n="internships.tencentBody">Worked on multi-lineup, multi-playstyle training and policy optimization for AI Bots in Honor of Kings: Wanxiangqi. Built a performance-driven adaptive sparring (PAS) mechanism to support policy transfer across lineups and parallel training; explored LLM-driven lineup generation and automated integration, and used visual monitoring to improve training feedback, policy convergence, and Bot playstyle diversity.</p>
+    </div>
+  </article>
+
   <article class="publication-card internship-card">
     <div class="internship-logo">
       <img src="/photos/平安科技.png?v={{ site.time | date: '%s' }}" alt="Ping An Technology logo" data-i18n-attr="alt:internships.logoAlt">
