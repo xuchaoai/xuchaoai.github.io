@@ -958,6 +958,11 @@ h1:before, .anchor:before {
     background: #fff0e7;
 }
 
+.publication-heading .publication-tag--confirmed {
+    color: #2f7350;
+    background: #eaf6ee;
+}
+
 .publication-card p {
     margin-bottom: 0.45rem !important;
     color: #65758c;
@@ -1028,6 +1033,10 @@ h1:before, .anchor:before {
 
 .achievement-icon--patent {
     background: linear-gradient(135deg, #3b8961, #68b47a);
+}
+
+.achievement-icon--software {
+    background: linear-gradient(135deg, #7052a5, #9475c5);
 }
 
 .internship-card {

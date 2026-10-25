@@ -166,20 +166,34 @@ body_class: home-page
     <div>
       <div class="publication-heading">
         <h3 data-i18n="writing.secondPaperTitle">IEEE TMC Paper</h3>
-        <span class="tag-row"><span data-i18n="writing.multiAgentTag">Multi-Agent Cooperation</span><span data-i18n="writing.drlTag">DRL</span></span>
+        <span class="tag-row"><span data-i18n="writing.secondPaperStatus">Submitted</span><span data-i18n="writing.multiAgentTag">Multi-Agent Cooperation</span><span data-i18n="writing.drlTag">DRL</span></span>
       </div>
       <p class="authors" data-i18n="writing.secondPaperTopic">Meta-Adaptive Prediction-Enhanced Heterogeneous Multi-Agent Learning under Multi-Mode Mobility</p>
-      <p data-i18n="writing.secondPaperBody">Develops a meta-adaptive prediction-enhanced heterogeneous multi-agent learning framework for multi-mode short-term user mobility in UAV-assisted cellular networks. Combines multi-mode trajectory modeling, meta-learning-based prediction, and CTDE resource scheduling to support generalization to unseen mobility modes, few-shot adaptation, and joint optimization of user association, power allocation, and UAV trajectories.</p>
-      <p data-i18n="writing.secondPaperResults">In unseen environments, prediction RMSE is approximately 22% lower than a unified prediction model, with rapid adaptation using only 10% of target-mode samples. Compared with a framework without prediction, user satisfaction improves by approximately 16% and system energy consumption decreases by approximately 21%.</p>
+      <p data-i18n="writing.secondPaperBody">Studies meta-adaptive prediction and heterogeneous multi-agent learning in UAV-assisted cellular networks, focusing on generalization and adaptation across mobility modes, collaborative resource scheduling, and energy-efficiency optimization.</p>
     </div>
   </article>
 
   <article class="publication-card">
     <div class="achievement-icon achievement-icon--patent" aria-label="Patent" data-i18n-attr="aria-label:writing.patentType"><i class="fas fa-lightbulb"></i></div>
     <div>
-      <h3 data-i18n="writing.patentTitle">An Energy Efficiency Optimization Method for Cellular Networks and Related Devices</h3>
+      <div class="publication-heading">
+        <h3 data-i18n="writing.patentTitle">An Energy Efficiency Optimization Method for Cellular Networks and Related Devices</h3>
+        <span class="tag-row"><span class="publication-tag--confirmed" data-i18n="writing.patentStatus">Granted</span><span data-i18n="writing.multiAgentTag">Multi-Agent Cooperation</span><span data-i18n="writing.drlTag">DRL</span></span>
+      </div>
       <p class="authors" data-i18n="writing.patentMeta">Invention Patent</p>
-      <p data-i18n="writing.patentBody">Proposes an energy-efficiency optimization method and related devices for cellular network scenarios.</p>
+      <p data-i18n="writing.patentBody">For energy-efficiency optimization in cellular networks, studies reinforcement-learning-based intelligent resource scheduling methods and related device solutions.</p>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <div class="achievement-icon achievement-icon--software" aria-label="Software Copyright" data-i18n-attr="aria-label:writing.softwareType"><i class="fas fa-code"></i></div>
+    <div>
+      <div class="publication-heading">
+        <h3 data-i18n="writing.softwareTitle">MC-GRUADNet-Based Bearing Fault Diagnosis System V1.0</h3>
+        <span class="tag-row"><span class="publication-tag--confirmed" data-i18n="writing.softwareStatus">Registered</span><span data-i18n="writing.dlTag">DL</span><span data-i18n="writing.faultDiagnosisTag">Fault Diagnosis</span><span data-i18n="writing.intelligentMaintenanceTag">Intelligent Maintenance</span></span>
+      </div>
+      <p class="authors" data-i18n="writing.softwareType">Software Copyright</p>
+      <p data-i18n="writing.softwareBody">Uses the MC-GRUADNet deep learning model to combine multi-scale convolution, temporal modeling, and attention mechanisms for bearing fault identification, visual analysis, and maintenance decision support.</p>
     </div>
   </article>
 </section>
