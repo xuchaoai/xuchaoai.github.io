@@ -941,6 +941,23 @@ h1:before, .anchor:before {
     line-height: 1.35;
 }
 
+.publication-heading {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.45rem 0.7rem;
+    margin-bottom: 0.35rem;
+}
+
+.publication-heading h3 {
+    margin: 0;
+}
+
+.publication-heading .publication-tag--revision {
+    color: #b64f2f;
+    background: #fff0e7;
+}
+
 .publication-card p {
     margin-bottom: 0.45rem !important;
     color: #65758c;

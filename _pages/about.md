@@ -152,9 +152,25 @@ body_class: home-page
   <article class="publication-card">
     <div class="achievement-icon achievement-icon--paper" aria-label="Paper" data-i18n-attr="aria-label:writing.paperType"><i class="fas fa-file-alt"></i></div>
     <div>
-      <h3 data-i18n="writing.paperTitle">IEEE TMC Paper</h3>
-      <p class="authors" data-i18n="writing.paperMeta">First Author · Under Revision · CCF-A · CAS Q1 Top Journal</p>
-      <p data-i18n="writing.paperBody">A research paper submitted to IEEE Transactions on Mobile Computing, currently under revision.</p>
+      <div class="publication-heading">
+        <h3 data-i18n="writing.paperTitle">IEEE TMC Paper</h3>
+        <span class="tag-row"><span class="publication-tag--revision" data-i18n="writing.paperStatus">Major Revision</span><span data-i18n="writing.multiAgentTag">Multi-Agent Cooperation</span><span data-i18n="writing.drlTag">DRL</span></span>
+      </div>
+      <p class="authors" data-i18n="writing.paperMeta">First Author · CCF-A · CAS Q1 Top Journal</p>
+      <p data-i18n="writing.paperBody">Studies the application of reinforcement learning to dynamic wireless network resource optimization, focusing on intelligent decision-making, collaborative control, and service quality improvement in complex network environments.</p>
+    </div>
+  </article>
+
+  <article class="publication-card">
+    <div class="achievement-icon achievement-icon--paper" aria-label="Paper" data-i18n-attr="aria-label:writing.paperType"><i class="fas fa-file-alt"></i></div>
+    <div>
+      <div class="publication-heading">
+        <h3 data-i18n="writing.secondPaperTitle">IEEE TMC Paper</h3>
+        <span class="tag-row"><span data-i18n="writing.multiAgentTag">Multi-Agent Cooperation</span><span data-i18n="writing.drlTag">DRL</span></span>
+      </div>
+      <p class="authors" data-i18n="writing.secondPaperTopic">Meta-Adaptive Prediction-Enhanced Heterogeneous Multi-Agent Learning under Multi-Mode Mobility</p>
+      <p data-i18n="writing.secondPaperBody">Develops a meta-adaptive prediction-enhanced heterogeneous multi-agent learning framework for multi-mode short-term user mobility in UAV-assisted cellular networks. Combines multi-mode trajectory modeling, meta-learning-based prediction, and CTDE resource scheduling to support generalization to unseen mobility modes, few-shot adaptation, and joint optimization of user association, power allocation, and UAV trajectories.</p>
+      <p data-i18n="writing.secondPaperResults">In unseen environments, prediction RMSE is approximately 22% lower than a unified prediction model, with rapid adaptation using only 10% of target-mode samples. Compared with a framework without prediction, user satisfaction improves by approximately 16% and system energy consumption decreases by approximately 21%.</p>
     </div>
   </article>
 
