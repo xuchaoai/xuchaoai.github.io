@@ -2,6 +2,14 @@
   var STORAGE_KEY = "xuchao-homepage-language";
   var supportedLanguages = ["en", "zh"];
 
+  function isMobileViewport() {
+    return window.matchMedia && window.matchMedia("(max-width: 900px)").matches;
+  }
+
+  function languageStorageKey() {
+    return isMobileViewport() ? STORAGE_KEY + "-mobile" : STORAGE_KEY;
+  }
+
   function normalizeLanguage(language) {
     if (!language) {
       return "en";
@@ -87,7 +95,7 @@
     updateToggle(nextLanguage);
 
     try {
-      window.localStorage.setItem(STORAGE_KEY, nextLanguage);
+      window.localStorage.setItem(languageStorageKey(), nextLanguage);
     } catch (error) {
       // Browsers can disable localStorage; the switch still works for this page view.
     }
@@ -95,15 +103,15 @@
 
   function preferredLanguage() {
     try {
-      var storedLanguage = window.localStorage.getItem(STORAGE_KEY);
+      var storedLanguage = window.localStorage.getItem(languageStorageKey());
       if (storedLanguage) {
         return normalizeLanguage(storedLanguage);
       }
     } catch (error) {
-      return "en";
+      // Use the viewport default when localStorage is unavailable.
     }
 
-    return "en";
+    return isMobileViewport() ? "zh" : "en";
   }
 
   function initLanguageToggle() {
