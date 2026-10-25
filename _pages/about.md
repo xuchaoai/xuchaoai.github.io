@@ -105,6 +105,18 @@ body_class: home-page
   </article>
 
   <article class="research-card research-card--purple">
+    <div class="research-card__image research-card__image--diagram research-visual research-visual--notes">
+      <img src="/photos/运维系统.png?v={{ site.time | date: '%s' }}" alt="Operations system research highlight" data-i18n-attr="alt:research.extraTwoImageAlt">
+    </div>
+    <div class="research-card__body">
+      <span class="tag-row"><span data-i18n="research.extraTwoTag1">Tag 1</span><span data-i18n="research.extraTwoTag2">Tag 2</span><span data-i18n="research.extraTwoTag3">Tag 3</span></span>
+      <h3 data-i18n="research.extraTwoTitle">Research Highlight 4</h3>
+      <p data-i18n="research.extraTwoBody">Add a concise description for this research highlight.</p>
+      <div class="card-status"><i class="fas fa-pen"></i> <span data-i18n="research.extraTwoStatus">Content coming soon</span></div>
+    </div>
+  </article>
+
+  <article class="research-card research-card--purple">
     <div class="research-card__image research-card__image--pending">
       <span data-i18n="research.publicationPending">Publication in progress</span>
     </div>
@@ -125,18 +137,6 @@ body_class: home-page
       <h3 data-i18n="research.extraOneTitle">Research Highlight 3</h3>
       <p data-i18n="research.extraOneBody">Add a concise description for this research highlight.</p>
       <div class="card-status"><i class="fas fa-pen"></i> <span data-i18n="research.extraOneStatus">Completed / ongoing write-up</span></div>
-    </div>
-  </article>
-
-  <article class="research-card research-card--purple">
-    <div class="research-card__image research-card__image--diagram research-visual research-visual--notes">
-      <img src="/photos/运维系统.png?v={{ site.time | date: '%s' }}" alt="Operations system research highlight" data-i18n-attr="alt:research.extraTwoImageAlt">
-    </div>
-    <div class="research-card__body">
-      <span class="tag-row"><span data-i18n="research.extraTwoTag1">Tag 1</span><span data-i18n="research.extraTwoTag2">Tag 2</span><span data-i18n="research.extraTwoTag3">Tag 3</span></span>
-      <h3 data-i18n="research.extraTwoTitle">Research Highlight 4</h3>
-      <p data-i18n="research.extraTwoBody">Add a concise description for this research highlight.</p>
-      <div class="card-status"><i class="fas fa-pen"></i> <span data-i18n="research.extraTwoStatus">Content coming soon</span></div>
     </div>
   </article>
 </section>
