@@ -42,6 +42,7 @@ en:
   research:
     kicker: "Research Directions"
     title: "Research Highlights"
+    publicationPending: "Publication in progress"
     gameTag1: "AI Bot"
     gameTag2: "LLM"
     gameTag3: "RL"
@@ -214,6 +215,7 @@ zh:
   research:
     kicker: "研究方向"
     title: "研究亮点"
+    publicationPending: "正在发表成果中"
     gameTag1: "AI Bot"
     gameTag2: "LLM"
     gameTag3: "RL"

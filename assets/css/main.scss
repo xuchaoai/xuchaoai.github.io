@@ -705,6 +705,17 @@ h1:before, .anchor:before {
     background: #fff;
 }
 
+.research-card__image--pending {
+    display: grid;
+    place-items: center;
+    padding: 1.25rem;
+    border-bottom: 1px solid #e1e7f0;
+    color: #49617f;
+    font-size: clamp(1.1rem, 2vw, 1.45rem);
+    font-weight: 800;
+    text-align: center;
+}
+
 .research-card__image--diagram img {
     box-sizing: border-box;
     padding: 0.5rem;

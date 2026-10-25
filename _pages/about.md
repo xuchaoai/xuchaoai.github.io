@@ -105,13 +105,8 @@ body_class: home-page
   </article>
 
   <article class="research-card research-card--purple">
-    <div class="research-card__image research-card__image--abstract research-visual research-visual--notes" data-visual-label="" data-i18n-attr="data-visual-label:research.notesVisual">
-      <div class="research-abstract-card research-abstract-card--network" aria-hidden="true">
-        <span class="research-abstract-card__icon"><i class="fas fa-broadcast-tower"></i></span>
-        <span class="research-abstract-card__node research-abstract-card__node--one"></span>
-        <span class="research-abstract-card__node research-abstract-card__node--two"></span>
-        <span class="research-abstract-card__node research-abstract-card__node--three"></span>
-      </div>
+    <div class="research-card__image research-card__image--pending">
+      <span data-i18n="research.publicationPending">Publication in progress</span>
     </div>
     <div class="research-card__body">
       <span class="tag-row"><span data-i18n="research.notesTag1">Wireless</span><span data-i18n="research.notesTag2">Optimization</span><span data-i18n="research.notesTag3">AI</span></span>
@@ -122,13 +117,8 @@ body_class: home-page
   </article>
 
   <article class="research-card research-card--green">
-    <div class="research-card__image research-card__image--abstract research-visual research-visual--systems" data-visual-label="" data-i18n-attr="data-visual-label:research.extraOneVisual">
-      <div class="research-abstract-card" aria-hidden="true">
-        <span class="research-abstract-card__icon"><i class="fas fa-network-wired"></i></span>
-        <span class="research-abstract-card__orbit research-abstract-card__orbit--one"></span>
-        <span class="research-abstract-card__orbit research-abstract-card__orbit--two"></span>
-        <span class="research-abstract-card__line"></span>
-      </div>
+    <div class="research-card__image research-card__image--pending">
+      <span data-i18n="research.publicationPending">Publication in progress</span>
     </div>
     <div class="research-card__body">
       <span class="tag-row"><span data-i18n="research.extraOneTag1">Tag 1</span><span data-i18n="research.extraOneTag2">Tag 2</span><span data-i18n="research.extraOneTag3">Tag 3</span></span>
