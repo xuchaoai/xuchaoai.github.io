@@ -155,8 +155,9 @@ body_class: home-page
       <div class="publication-heading">
         <h3 data-i18n="writing.paperTitle">IEEE TMC Paper</h3>
         <span class="tag-row"><span class="publication-tag--revision" data-i18n="writing.paperStatus">Major Revision</span><span data-i18n="writing.multiAgentTag">Multi-Agent Cooperation</span><span data-i18n="writing.drlTag">DRL</span></span>
+        <span class="publication-credentials"><span class="publication-credential publication-credential--author" data-i18n="writing.firstAuthor">First Author</span><span class="publication-credential publication-credential--venue" data-i18n="writing.journalRank">CCF-A · CAS Q1 Top Journal</span></span>
       </div>
-      <p class="authors" data-i18n="writing.paperMeta">First Author · CCF-A · CAS Q1 Top Journal</p>
+      <p class="authors" data-i18n="writing.paperMeta">QoE-Oriented Prediction-Enhanced Heterogeneous Multi-Agent Resource Allocation</p>
       <p data-i18n="writing.paperBody">Studies the application of reinforcement learning to dynamic wireless network resource optimization, focusing on intelligent decision-making, collaborative control, and service quality improvement in complex network environments.</p>
     </div>
   </article>
@@ -167,6 +168,7 @@ body_class: home-page
       <div class="publication-heading">
         <h3 data-i18n="writing.secondPaperTitle">IEEE TMC Paper</h3>
         <span class="tag-row"><span data-i18n="writing.secondPaperStatus">Submitted</span><span data-i18n="writing.multiAgentTag">Multi-Agent Cooperation</span><span data-i18n="writing.drlTag">DRL</span></span>
+        <span class="publication-credentials"><span class="publication-credential publication-credential--author" data-i18n="writing.firstAuthor">First Author</span><span class="publication-credential publication-credential--venue" data-i18n="writing.journalRank">CCF-A · CAS Q1 Top Journal</span></span>
       </div>
       <p class="authors" data-i18n="writing.secondPaperTopic">Meta-Adaptive Prediction-Enhanced Heterogeneous Multi-Agent Learning under Multi-Mode Mobility</p>
       <p data-i18n="writing.secondPaperBody">Studies meta-adaptive prediction and heterogeneous multi-agent learning in UAV-assisted cellular networks, focusing on generalization and adaptation across mobility modes, collaborative resource scheduling, and energy-efficiency optimization.</p>

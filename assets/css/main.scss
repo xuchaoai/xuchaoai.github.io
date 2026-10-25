@@ -953,6 +953,39 @@ h1:before, .anchor:before {
     margin: 0;
 }
 
+.publication-credentials {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.4rem;
+    max-width: 100%;
+    margin-left: auto;
+}
+
+.publication-credential {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 0.65rem;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    line-height: 1.4;
+}
+
+.publication-credential--author {
+    color: #fff;
+    border-color: #315f9d;
+    background: #315f9d;
+}
+
+.publication-credential--venue {
+    color: #785112;
+    border-color: #e3bc59;
+    background: #fff0bf;
+}
+
 .publication-heading .publication-tag--revision {
     color: #b64f2f;
     background: #fff0e7;
