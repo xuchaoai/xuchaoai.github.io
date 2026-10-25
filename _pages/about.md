@@ -77,10 +77,21 @@ body_class: home-page
     <span class="section-kicker" data-i18n="research.kicker">What I am exploring</span>
     <h2><i class="fas fa-robot"></i> <span data-i18n="research.title">Research Highlights</span></h2>
   </div>
-  <p data-i18n="research.summary">A compact overview of the topics this homepage will organize as the work grows.</p>
 </section>
 
 <section class="research-grid">
+  <article class="research-card research-card--purple">
+    <div class="research-card__image research-card__image--diagram research-visual research-visual--notes">
+      <img src="/photos/王者荣耀.png?v={{ site.time | date: '%s' }}" alt="Honor of Kings: Wanxiangqi training and policy optimization overview" data-i18n-attr="alt:research.gameImageAlt">
+    </div>
+    <div class="research-card__body">
+      <span class="tag-row"><span data-i18n="research.gameTag1">AI Bot</span><span data-i18n="research.gameTag2">LLM</span><span data-i18n="research.gameTag3">RL</span></span>
+      <h3 data-i18n="research.gameTitle">Honor of Kings: Wanxiangqi — Multi-Playstyle Training and Policy Optimization</h3>
+      <p data-i18n="research.gameBody">Builds an adaptive sparring (PAS) mechanism for multi-lineup, multi-playstyle training, combining LLM-driven lineup generation, policy transfer across lineups, and parallel training to improve game AI Bot training efficiency and policy diversity.</p>
+      <div class="card-status"><i class="fas fa-check-circle"></i> <span data-i18n="research.gameStatus">Completed</span></div>
+    </div>
+  </article>
+
   <article class="research-card research-card--green">
     <div class="research-card__image research-card__image--diagram research-visual research-visual--systems">
       <img src="/photos/vla.png?v={{ site.time | date: '%s' }}" alt="Embodied intelligence research highlight" data-i18n-attr="alt:research.systemsImageAlt">
@@ -89,7 +100,7 @@ body_class: home-page
       <span class="tag-row"><span data-i18n="research.systemsTag1">Embodied AI</span><span data-i18n="research.systemsTag2">RL</span><span data-i18n="research.systemsTag3">Safe Control</span></span>
       <h3 data-i18n="research.systemsTitle">Embodied Intelligence and Safe Decision-Making</h3>
       <p data-i18n="research.systemsBody">Exploring how learning-based methods can improve stability, safety, and decision quality in complex embodied tasks.</p>
-      <div class="card-status"><i class="fas fa-flask"></i> <span data-i18n="research.systemsStatus">In progress</span></div>
+      <div class="card-status"><i class="fas fa-check-circle"></i> <span data-i18n="research.systemsStatus">Completed</span></div>
     </div>
   </article>
 
@@ -123,7 +134,7 @@ body_class: home-page
       <span class="tag-row"><span data-i18n="research.extraOneTag1">Tag 1</span><span data-i18n="research.extraOneTag2">Tag 2</span><span data-i18n="research.extraOneTag3">Tag 3</span></span>
       <h3 data-i18n="research.extraOneTitle">Research Highlight 3</h3>
       <p data-i18n="research.extraOneBody">Add a concise description for this research highlight.</p>
-      <div class="card-status"><i class="fas fa-flask"></i> <span data-i18n="research.extraOneStatus">In progress</span></div>
+      <div class="card-status"><i class="fas fa-pen"></i> <span data-i18n="research.extraOneStatus">Completed / ongoing write-up</span></div>
     </div>
   </article>
 
